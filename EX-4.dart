@@ -9,7 +9,6 @@ void main() {
   // Example order
   const order = ['margherita', 'pepperoni', 'pineapple'];
 
-  // Your code
   double total=0;
   for (var pizza in order){
     if(pizzaPrices.containsKey(pizza)){
